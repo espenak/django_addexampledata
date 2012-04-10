@@ -70,6 +70,7 @@ addexampledata adds the same data each time it runs!
 
 You can solve this in two ways:
 
-1. *(reccommended)* Add a make target (we use a Fabric action) to reset
-   your example database and re-run ``addexampledata``.
+1. *(reccommended)* Add a make target or something similar (we use a Fabric
+   action) to reset your example database and re-run ``addexampledata``. Use
+   this action whenever you change/add models or exampledata.
 2. Check for existing items in ``add_exampledata()`` before inserting new data.
