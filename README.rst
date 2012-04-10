@@ -65,8 +65,8 @@ the command. Example::
     python manage.py addexampledata myapp myotherapp
 
 
-It adds the same data each time it runs!
-========================================
+addexampledata adds the same data each time it runs!
+----------------------------------------------------
 
 You can solve this in two ways:
 
